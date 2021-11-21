@@ -1,0 +1,28 @@
+.imgjumbotron{
+    background-image: url(../assets/main-bg.jpg);
+    height: 960.14px ;
+    width: 100%;
+    background-size: cover;
+}
+
+.about{
+    background-image: url(../assets/the-games-bg.jpg);
+    height: 1051.43px;
+    width: 100%;
+    background-size: cover;
+}
+
+.features{
+    background-image: url(../assets/features.jpg);
+    height: 860.26px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.sysreq{
+    background-image: url(../assets/Rectangle\ 4.png), url(../assets/requirements.png) ;
+    height: 960.16px;
+    width: 100%;
+    background-size: cover;
+}

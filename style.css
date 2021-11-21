@@ -1,0 +1,202 @@
+ /* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap');
+
+/* GLOBAL */
+body{
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin: 0;
+    background-color: black ;
+    color: white;
+}
+h1{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+h2{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+h3{
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+/* HEADER */ /* Mengatur background header */
+header{
+    width: 100%;
+    height: 960px;
+    background-image: url(./assets/main-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* Navigation Bar  */ /* Kenapa poisiton:sticky tidak bisa dipakai? */
+nav{
+    background-color: rgb(0, 0, 0, 0.8);
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navleft {
+    padding-left: 20px;
+}
+.navcenter {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.navright {
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+} 
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+nav a:hover{
+    color: #FFB548;
+}
+a[href*="logo"] {
+    font-size: 24px;
+} /* ini caranya gimana? lupa */
+
+/* Tulisan Header */
+.utama{
+    text-align: center;
+    padding-top: 150px;
+}
+button{
+    border-radius: 4px;
+    border: none;
+    background: #FFB548;
+    padding: 15px 75px 15px 75px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button:hover{
+    background: mediumseagreen;
+    color: white;
+}
+
+/* tulisan the story */
+.bawahutama {
+    width: 100%;
+    text-align: center;
+    padding-top: 300px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.bawahutama:hover{
+    color: #FFB548;
+}
+
+
+/* MAIN */
+/* ABOUT */
+.about{
+    height: 900px;
+    background-image: url(./assets/the-games-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+}
+.about1{
+    width: 30%; 
+    padding-top: 5%;
+    padding-left: 10%; 
+}
+.about1> h2{margin: 0px;}
+.about1> h3{margin: 0px;}
+.about2{
+    width: 70%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+/* FEATURES */
+.features{
+    height: 870px;
+    background-image: url(./assets/features.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.features1{
+    width: 60%;
+}
+.features2{
+    width: 40%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+.features2> div> h2{
+    margin-top: 0px;
+    margin-bottom: 75px;
+}
+.features2> div> h3{margin: 0px;}
+.features2second{
+    margin-left: 50px;
+}
+.features2toggler{
+    position: absolute;
+}
+
+/* SYSTEM REQUIREMENTS */
+.sysreq{
+    height: 960px;
+    background-image: url(./assets/Rectangle\ 4.png), url(./assets/requirements.png);
+    background-position: center;
+    background-size: cover;
+}
+.sysreqdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.sysreq1{
+    width: 60%;
+}
+.sysreq2{
+    width: 70%;
+}
+
+
+
+
+div.pressquote{
+    height: 950px;
+    background-image: url(./assets/top-score-bg.png), url(./assets/top-score-bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div.subscribe{
+    height: 960px;
+}
+
+/* FOOTER */
+footer{
+    font-size: 12px;
+}
+
+.copyright{
+    color: black;
+}
+
+
+
